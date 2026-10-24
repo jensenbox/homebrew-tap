@@ -1,20 +1,20 @@
 class KvmSwitch < Formula
   desc "Cross-platform DDC/CI monitor input switcher (software KVM)"
   homepage "https://github.com/jensenbox/kvm-switch"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/jensenbox/kvm-switch/releases/download/v0.2.0/kvm-switch-0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "223e06c033a8dba2b236f512c6eeaf68e4d3eea7eea29ac8113a0f2696710e9f"
+      url "https://github.com/jensenbox/kvm-switch/releases/download/v0.2.1/kvm-switch-0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "1eb855beffdbeb6bb2b28868ed9ea95f81d574e2657207a7421fe890d9d22047"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/jensenbox/kvm-switch/releases/download/v0.2.0/kvm-switch-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "90a89e7d0ce969ad726264b26569bb44968b30a7f8e8b7751ec206d147902682"
+      url "https://github.com/jensenbox/kvm-switch/releases/download/v0.2.1/kvm-switch-0.2.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "11dd7dd2c1d7f0139cd54627e774cc34ee72e489372f31b243a17d0e87495ea4"
     end
   end
 
